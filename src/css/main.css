@@ -138,3 +138,41 @@ h4 {
 }
 
 /* 04. Intégration */
+.wrapper {
+  width: 634px;
+  height: 400px;
+  background-color: #f7fafd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-4 {
+  border-radius: 20px;
+  background-color: #fff;
+  width: 270px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.card-4 img {
+  border-radius: 20px 20px 0px 0px;
+}
+.content-4 {
+  background-color: #fff;
+  width: 270px;
+  padding: 9px 15px;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-left h1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.content-left p {
+  font-size: 12px;
+}
+.content-right {
+  display: flex;
+  gap: 10px;
+}
